@@ -7,11 +7,30 @@ img {
   height: 100px;
 }
 
+.main-page {
+  display: flex;
+  justify-content: space-around;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin: 4px;
+  margin-bottom: 32px;
 }
 
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0px 52px 0px;
+}
+
+.card > img {
+  margin-left: auto;
+  margin-right: auto;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
